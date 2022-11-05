@@ -7,6 +7,7 @@ def compute_pvalue(tosses):
             x += 1
         n += 1
     
+    # implement factorial computation using Memoization (Dynamic programming) and not brute force Recursion
     factorials = [-1]*n
     for idx in range(n):
         if idx == 0:
